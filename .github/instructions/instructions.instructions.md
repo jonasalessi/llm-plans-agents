@@ -1,5 +1,4 @@
 ---
 applyTo: '**'
 ---
-#file:../../rules/code-standards.md
-#file:../../rules/typescript.md
+#file:../../rules/entrypoint.md
