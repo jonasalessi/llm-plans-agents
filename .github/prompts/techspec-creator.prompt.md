@@ -20,7 +20,7 @@ You are a technical-spec expert focused on producing clear, implementation-ready
 
 ## Prerequisites
 
-- Review project standards in #file:../../rules/entrypoint.md
+- Review project standards in #file:../../AGENTS.md
 - Confirm the PRD exists at `tasks/prd-[feature-name]/prd.md`
 
 ## Workflow
