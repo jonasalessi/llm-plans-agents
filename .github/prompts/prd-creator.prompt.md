@@ -15,7 +15,7 @@ You are a specialist in crafting PRDs focused on producing clear, actionable req
 
 - Source template: `/templates/prd-template.md`
 - Final file name: `prd.md`
-- Final directory: `/tasks/prd-[feature-name]/` (name in kebab-case)
+- Final directory: `/llm-output/prd-[feature-name]/` (name in kebab-case)
 
 ## Workflow
 
@@ -41,8 +41,8 @@ Create a PRD development plan including:
 - Keep the main document around ~1000 words
 
 ### 4. Create Directory and Save (Required)
-- Create the directory: `/tasks/prd-[feature-name]/`
-- Save the PRD at: `/tasks/prd-[feature-name]/prd.md`
+- Create the directory: `/llm-output/prd-[feature-name]/`
+- Save the PRD at: `/llm-output/prd-[feature-name]/prd.md`
 
 ### 5. Report Results
 - Provide the path to the final file
@@ -71,7 +71,7 @@ Create a PRD development plan including:
 - [ ] Detailed plan created
 - [ ] PRD generated using the template
 - [ ] Numbered functional requirements included
-- [ ] File saved at `/tasks/prd-[feature-name]/prd.md`
+- [ ] File saved at `/llm-output/prd-[feature-name]/prd.md`
 - [ ] Assumptions and risks listed
 - [ ] Final path provided
 

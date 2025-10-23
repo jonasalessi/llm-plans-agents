@@ -15,7 +15,7 @@ You are a Shape Up–oriented PRD writer who produces minimal, clear, and testab
 
 - Source template: `/templates/prd-shapeup-template.md`
 - Final file name: `prd-shapeup.md`
-- Final directory: `/tasks/prd-[feature-name]/` (name in kebab-case)
+- Final directory: `/llm-output/prd-[feature-name]/` (name in kebab-case)
 
 ## Workflow
 
@@ -44,8 +44,8 @@ Prepare a fat-marker outline including:
 - Include a dedicated "No-Gos (Out of Scope)" section
 
 ### 4. Create Directory and Save (Required)
-- Create the directory: `/tasks/prd-[feature-name]/`
-- Save the PRD at: `/tasks/prd-[feature-name]/prd-shapeup.md`
+- Create the directory: `/llm-output/prd-[feature-name]/`
+- Save the PRD at: `/llm-output/prd-[feature-name]/prd-shapeup.md`
 
 ### 5. Report Results
 - Provide the path to the final file
@@ -74,7 +74,7 @@ Prepare a fat-marker outline including:
 - [ ] Fat-marker outline prepared
 - [ ] PRD generated from Shape Up template
 - [ ] Numbered functional requirements included
-- [ ] File saved at `/tasks/prd-[feature-name]/prd-shapeup.md`
+- [ ] File saved at `/llm-output/prd-[feature-name]/prd-shapeup.md`
 - [ ] Assumptions, risks, and no-gos listed
 - [ ] Dedicated No-Gos section present
 - [ ] Final path provided

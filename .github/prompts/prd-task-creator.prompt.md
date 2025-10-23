@@ -13,8 +13,8 @@ The feature you will work on is identified by this slug:
 ## Prerequisites
 
 Before starting, confirm both documents exist:
-- PRD: `tasks/$ARGUMENTS/prd.md`
-- Technical Specification: `tasks/$ARGUMENTS/techspec.md`
+- PRD: `llm-output/$ARGUMENTS/prd.md`
+- Technical Specification: `llm-output/$ARGUMENTS/techspec.md`
 
 If the Technical Specification is missing, inform the user to create it first.
 
@@ -43,11 +43,11 @@ If the Technical Specification is missing, inform the user to create it first.
 ## Output Specifications
 
 ### File locations
-- Feature folder: `/tasks/$ARGUMENTS/`
+- Feature folder: `/llm-output/$ARGUMENTS/`
 - Task list template: `/templates/tasks-template.md`
-- Task list: `/tasks/$ARGUMENTS/tasks.md`
+- Task list: `/llm-output/$ARGUMENTS/tasks.md`
 - Individual task template: `/templates/task-template.md`
-- Individual tasks: `/tasks/$ARGUMENTS/<num>_task.md`
+- Individual tasks: `/llm-output/$ARGUMENTS/<num>_task.md`
 
 ### Task list format (`tasks.md`)
 

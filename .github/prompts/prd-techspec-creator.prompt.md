@@ -15,13 +15,13 @@ You are a technical-spec expert focused on producing clear, implementation-ready
 ## Template and Inputs
 
 - Tech Spec Template: `templates/techspec-template.md`
-- Required PRD: `tasks/prd-[feature-name]/prd.md`
-- Output document: `tasks/prd-[feature-name]/techspec.md`
+- Required PRD: `llm-output/prd-[feature-name]/prd.md`
+- Output document: `llm-output/prd-[feature-name]/techspec.md`
 
 ## Prerequisites
 
 - Review project standards in #file:../../AGENTS.md
-- Confirm the PRD exists at `tasks/prd-[feature-name]/prd.md`
+- Confirm the PRD exists at `llm-output/prd-[feature-name]/prd.md`
 
 ## Workflow
 
@@ -55,7 +55,7 @@ Ask focused questions about:
 - Avoid repeating PRD functional requirements; focus on HOW to implement
 
 ### 6. Save the Tech Spec (Required)
-- Save as: `tasks/prd-[feature-name]/techspec.md`
+- Save as: `llm-output/prd-[feature-name]/techspec.md`
 - Confirm the write operation and path
 
 ### 7. Report Results
@@ -83,7 +83,7 @@ Ask focused questions about:
 - [ ] Deep repository analysis completed
 - [ ] Key technical clarifications answered
 - [ ] Tech Spec generated using the template
-- [ ] File written to `./tasks/prd-[feature-name]/techspec.md`
+- [ ] File written to `./llm-output/prd-[feature-name]/techspec.md`
 - [ ] Final output path provided and confirmed
 
 ## Output Protocol
