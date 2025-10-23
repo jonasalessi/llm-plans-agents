@@ -1,5 +1,4 @@
 ---
-mode: agent
 description: Creates concise Shape Up PRDs (pitch-based) using a simplified requirements-gathering process.
 ---
 

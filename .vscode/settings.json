@@ -1,0 +1,7 @@
+{
+    "chat.promptFilesRecommendations": {
+        "prd.create": true,
+        "prd.create-techspec": true,
+        "prd.plan-tasks": true
+    }
+}
