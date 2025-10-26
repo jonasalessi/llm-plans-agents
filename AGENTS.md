@@ -14,10 +14,4 @@
 	•	Never declare more than one variable on the same line.
 	•	Declare variables as close as possible to where they will be used.
 	•	Prefer composition over inheritance whenever possible.
-
-
-# Kotlin
-When writing code in Kotlin check this file [Kotlin](./rules/kotlin.md)
-
-# Typescript
-When writing code in Typescript check this file [Typescript](./rules/typescript.md)
+ 
