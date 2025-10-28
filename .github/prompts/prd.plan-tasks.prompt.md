@@ -49,29 +49,30 @@ The feature you will work on is identified by this slug:
 
 ### File locations
 - Feature folder: `/llm-output/[feature-name]/`
-- Task list template: `/templates/tasks-template.md`
+- Task list template: <tasks_template>
 - Task list: `/llm-output/[feature-name]/tasks.md`
-- Individual task template: `/templates/task-template.md`
+- Individual task template: <task_template>
 - Individual tasks: `/llm-output/[feature-name]/<num>_task.md`
 
-### Task list format (`tasks.md`)
+<tasks_template>
 
 ```markdown
-# Implementation [Feature] - Task Summary
+# Task Execution Instructions
+After finish each task always update the task "status:"
 
 ## Tasks
 
-- [ ] 1.0 Main Task Title
-- [ ] 2.0 Main Task Title
-- [ ] 3.0 Main Task Title
+- [ ] [Task name with the file location]
+```
+</tasks_template>
 
-### Individual Task Format (`<num>_task.md`)
+<task_template>
 
 ```markdown
 ---
 status: pending # Options: pending, in-progress, completed, excluded
 parallelizable: true # Whether it can be run in parallel
-blocked_by: ["X.0", "Y.0"] # IDs of tasks that must be completed first
+blocked_by: ["X", "Y"] # <num> of tasks that must be completed first
 ---
 
 <task_context>
@@ -80,10 +81,10 @@ blocked_by: ["X.0", "Y.0"] # IDs of tasks that must be completed first
 <scope>core_feature|middleware|configuration|performance</scope>
 <complexity>low|medium|high</complexity>
 <dependencies>external_apis|database|temporal|http_server</dependencies>
-<unblocks>"Z.0"</unblocks>
+<unblocks>"X"</unblocks>
 </task_context>
 
-# Task X.0: [Main Task Title]
+# Task <num>: [Main Task Title]
 
 ## Overview
 [Brief description of the task]
@@ -107,6 +108,7 @@ blocked_by: ["X.0", "Y.0"] # IDs of tasks that must be completed first
 - [Measurable outcomes]
 - [Quality requirements]
 ```
+</task_template>
 
 ## Parallelization Analysis
 
