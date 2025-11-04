@@ -36,7 +36,7 @@ Prepare a fat-marker outline including:
 - Assumptions to validate
 
 ### 3. Draft PRD (Required)
-- Use the `templates/prd-shapeup-template.md` template
+- Use the `../templates/prd-shapeup-template.md` template
 - Focus on WHAT and desired outcomes; avoid HOW
 - Keep the main document concise (~800 words)
 - Include numbered functional requirements

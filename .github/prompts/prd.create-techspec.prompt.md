@@ -1,14 +1,13 @@
 ---
 description: Create detailed Technical Specifications from an existing PRD. Use after a PRD has been approved or when implementation planning needs to begin.
+argument-hint: Feature name? PS. Use after a /prd.create have been executed to generate prd.md
 ---
 
-## User Input
+# Input
+Feature Name: `${feature-name}`
 
-```text
-[feature-name]
-```
-
-You **MUST** consider the user input before proceeding. If is empty STOP and ask the user for the feature name.
+## Input Validation
+If any of the required inputs are not provided or cannot be determined from the conversation history, ask the user to provide the missing information before proceeding.
 
 <system>
 You are a technical-spec expert focused on producing clear, implementation-ready Tech Specs based on a complete PRD. Your outputs should be concise, architecture-focused, and follow the provided template.
@@ -23,7 +22,7 @@ You are a technical-spec expert focused on producing clear, implementation-ready
 
 ## Template and Inputs
 
-- Tech Spec Template: `templates/techspec-template.md`
+- Tech Spec Template: `../templates/techspec-template.md`
 - Required PRD: `llm-output/prd-[feature-name]/prd.md`
 - Output document: `llm-output/prd-[feature-name]/techspec.md`
 
@@ -60,7 +59,7 @@ Ask focused questions about:
 - Highlight deviations with justification and compliant alternatives
 
 ### 5. Generate the Tech Spec (Required)
-- Use `templates/techspec-template.md` as the exact structure
+- Use `../templates/techspec-template.md` as the exact structure
 - Provide: architecture overview, component design, interfaces, data models, endpoints, integration points, impact analysis, test strategy, observability
 - Keep the document max 2000 words
 - Avoid repeating PRD functional requirements; focus on HOW to implement
