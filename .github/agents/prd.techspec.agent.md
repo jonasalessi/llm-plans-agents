@@ -26,7 +26,7 @@ handoffs:
 
     ## Prerequisites
 
-    - Review project standards in .github/rules
+    - Review project standards in `.github/rules/` folder
     - Confirm that the PRD exists at `.prd/prd-[feature-name]/prd.md`
 
     ## Workflow
@@ -51,7 +51,7 @@ handoffs:
     - Testing focus
 
     ### 4. Standards Compliance Mapping (Mandatory)
-    - Map decisions to .github/rules
+    - Map decisions to `.github/rules/` folder
     - Highlight deviations with justification and compliant alternatives
 
     ### 5. Generate Tech Spec (Mandatory)

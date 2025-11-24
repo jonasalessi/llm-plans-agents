@@ -4,12 +4,12 @@ argument-hint: Start Task Planning based on the PRD and Tech Spec
 tools: ['edit', 'execute', 'read', 'search', 'vscode', 'web', 'runCommands', 'runTasks', 'context7/*', 'docker/search', 'docker/sequentialthinking', 'extensions', 'todos', 'runSubagent']
 handoffs: 
   - label: Start UI Implementation
-    agent: prd.implement-ui
-    prompt: Start implementing the tasks for the <project>ui</project> based on the tasks.md
+    agent: React Agent
+    prompt: /prd.implement-ui
     send: true
   - label: Start API Implementation
-    agent: prd.implement-api
-    prompt: Start implementing the tasks for the <project>api</project> based on the tasks.md
+    agent: Kotlin Agent
+    prompt: /prd.implement-api
     send: true
 ---
 
