@@ -1,9 +1,10 @@
 ---
 description: Refactor a React component to follow best practices
 argument-hint: Provide the component name or path
+agent: React Agent
 ---
 
-Refactor this component to align with #React Agent.agent.md best practices. It currently handles too many responsibilities. Split logic into reusable hooks and smaller, focused components.
+Refactor this component with the best practices. It currently handles too many responsibilities. Split logic into reusable hooks and smaller, focused components.
 
 Before proposing the plan:
 - Use the project's search tool to check for existing hooks, components, or utilities that can be reused to avoid duplication

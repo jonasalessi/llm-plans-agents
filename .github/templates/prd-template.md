@@ -57,9 +57,8 @@ Implementation details will be addressed in the Technical Specification.]
 - Features explicitly excluded
 - Future considerations that are out of scope
 - Boundaries and limitations
-]
 
-(Note: Technical implementation risks will be detailed in the Tech Spec.)
+(Note: Technical implementation risks will be detailed in the Tech Spec.)]
 
 ## Open Questions
 
